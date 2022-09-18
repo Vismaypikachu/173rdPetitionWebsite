@@ -18,3 +18,7 @@ html, body {
 nav a{
     font-size: 20px;
 }
+
+class.nav-item {
+    display: block;
+}
