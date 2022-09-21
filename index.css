@@ -23,7 +23,9 @@ nav a{
 #progress {
     text-align: left;
 }
-
+p{
+    margin-left: 20;
+}
 
 h4 {
     color: red;
