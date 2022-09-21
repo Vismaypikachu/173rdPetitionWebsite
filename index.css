@@ -30,3 +30,6 @@ p{
 h4 {
     color: red;
 }
+img {
+    display: inline;
+}
