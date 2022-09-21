@@ -6,7 +6,7 @@
 
 html, body {
     margin: 0;
-    background-color: yellow;
+    background-color: white;
     overflow-x: hidden;
     font-family: Arvo;
 }
@@ -27,7 +27,7 @@ nav a{
 }
 
 p{
-    color: white;
+    color: black;
     margin-left: 50px;
 }
 
