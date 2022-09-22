@@ -21,13 +21,17 @@ h2 {
     width: 100%;
     padding-top: 117px;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNsXVQ3_PiiYaSGBKJXkWI8Ifsxbp87ha2XA:https://images.seattletimes.com/wp-content/uploads/2021/12/12152021_1_124628.jpg%3Fd%3D780x490&usqp=CAU);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.blue{
+    color: blue;
 }
 
 
