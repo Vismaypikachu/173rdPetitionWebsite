@@ -16,7 +16,7 @@ h2 {
     margin-top: 80px;
 }
 
-.Welcome {
+#Welcome {
     text-align: left;
     margin-top: 0;
     color: white;
@@ -24,7 +24,7 @@ h2 {
     font-family: "Playfair Display";
 }
 
-.Heading {
+#Heading {
     text-align: left;
     font-size: 7rem;
     font-family: "Playfair Display";
@@ -35,7 +35,7 @@ h2 {
     height: 721px;
     width: 100%;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(sidewalk.jfif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(sidewalk.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
