@@ -101,9 +101,11 @@ h4 {
     color: red;
     text-align: center;
 }
+
 img {
     display: inline;
     margin-left: 50px;
+    align-items: center;
 }
 
 #nosidewalk {
