@@ -16,19 +16,19 @@ h2 {
     margin-top: 80px;
 }
 
-.image1{
-    height: 721px;
+.image1{height: 721px;
     width: 100%;
     padding-top: 117px;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sidewalk.jfif));
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sidewalk.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
+    justify-content: center;}
+    
+  
 .red {
     color: red;
 }
@@ -68,7 +68,7 @@ img {
 }
 
 #nosidewalk {
-    display: inline
+    display: inline;
     margin-left: 50px;
     border-radius: 2px;
 }
@@ -84,6 +84,6 @@ ul {
     color: green;
 }
 
-.imgrounded {
+img.img-rounded {
     border-radius: 2px;
 }
