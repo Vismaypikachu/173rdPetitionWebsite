@@ -1,7 +1,13 @@
-/* @font-face {
-    font-family: NAME OF NEW FONT TO CREATE;
-    src: url(URL TO FONT HERE);
-} */
+@font-face {
+    font-family: Quicksand Heading;
+    src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+}
+
 
 
 html, body {
@@ -11,23 +17,22 @@ html, body {
     font-family: Arvo;
 }
 
-h2 {
-    text-align: center;
-    margin-top: 80px;
+* {
+    box-sizing: border-box;
 }
 
 #Welcome {
     text-align: left;
-    margin-top: 0;
+    margin-top: 80px;
     color: white;
     font-size: 3rem;
-    font-family: "Playfair Display";
+    font-family: Quicksand Heading;
 }
 
 #Heading {
     text-align: left;
     font-size: 7rem;
-    font-family: "Playfair Display";
+    font-family: Quicksand Heading;
     color: white;
 }
 
@@ -85,10 +90,6 @@ h2 {
 }
 
 
-*  {
-    box-sizing: border-box;
-}
-
 nav a{
     font-size: 20px;
 }
@@ -138,4 +139,6 @@ img.img-rounded {
 .text{
     width: 80%;
     margin: 0 auto;
+    font-family: Montserrat;
+    font-size: 35px;
 }
