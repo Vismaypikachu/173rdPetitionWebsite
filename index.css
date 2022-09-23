@@ -135,3 +135,7 @@ img.img-rounded {
     font-family: Montserrat;
     font-size: 26px;
 }
+
+.list-group{
+    width: 50%;
+}
