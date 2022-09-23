@@ -80,14 +80,6 @@ html, body {
         font-size: 4rem;
     }
 }
-  
-.red {
-    color: red;
-}
-
-.blue{
-    color: blue;
-}
 
 
 nav a{
@@ -97,7 +89,6 @@ nav a{
 
 #progress {
     text-align: center;
-    color: blue;
 }
 
 p{
