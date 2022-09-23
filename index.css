@@ -134,3 +134,8 @@ ul {
 img.img-rounded {
     border-radius: 30px;
 }
+
+.text{
+    width: 80%;
+    margin: 0 auto;
+}
