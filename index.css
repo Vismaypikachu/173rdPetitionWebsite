@@ -136,6 +136,7 @@ img.img-rounded {
     font-size: 26px;
 }
 
-.list-group{
-    width: 50%;
-}
+.list-group {
+    max-width:50%;
+    margin: 4rem auto;
+  }
