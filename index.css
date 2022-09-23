@@ -60,6 +60,25 @@ h2 {
         font-size: 5rem;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .image1 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    #Welcome {
+        font-size: 2rem;
+    }
+    
+    #Heading {
+        font-size: 4rem;
+    }
+}
+
+.navbar-brand {
+    font-family: "Playfair Display";
+}
   
 .red {
     color: red;
