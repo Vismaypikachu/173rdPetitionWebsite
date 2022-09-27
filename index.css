@@ -138,11 +138,11 @@ img.img-rounded {
 }
 
 .list-group {
-    max-width:50%;
+    max-width: 50%;
     margin: 4rem auto;
 }
 
 .list-group li{
     text-align: center;
-    font-family: Playfair Display;
+    font-family: Montserrat;
 }
