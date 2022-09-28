@@ -1,20 +1,19 @@
 @font-face {
     font-family: Quicksand Heading;
-    src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+    src: url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
 }
 
-
-
-html, body {
+html,
+body {
     margin: 0;
     background-color: white;
     overflow-x: hidden;
-    font-family: Arvo;
+    font-family: "Source Serif 4", Arvo;
 }
 
 * {
@@ -22,45 +21,52 @@ html, body {
 }
 
 #Welcome {
+    margin-top: 20px;
     text-align: left;
-    margin-top: 80px;
     color: white;
     font-size: 3rem;
-    font-family: Quicksand Heading;
+    font-family: "Source Serif 4";
 }
 
 #Heading {
     text-align: left;
-    font-size: 5rem;
-    font-family: Quicksand Heading;
+    font-size: 7rem;
+    font-family: "Source Serif 4";
     color: white;
 }
 
-.image1{
-    height: 721px;
+.heading-highlight {
+    color: #ff6d70;
+    background-color: transparent;
+}
+
+.image1 {
+    height: 100vh;
     width: 100%;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(sidewalk.jfif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(sidewalk.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: start;
     padding-left: 5rem;
     padding-right: 5rem;
 }
-    
+
 @media screen and (max-width: 768px) {
     .image1 {
         padding-left: 3rem;
         padding-right: 3rem;
     }
-    
+
     #Welcome {
         font-size: 2rem;
     }
-    
+
     #Heading {
         font-size: 5rem;
     }
@@ -71,42 +77,70 @@ html, body {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    
+
     #Welcome {
         font-size: 2rem;
     }
-    
+
     #Heading {
         font-size: 4rem;
     }
 }
 
-
-nav a{
-    font-size: 20px;
-    font-weight: bold;
+.navbar {
+    font-family: "Source Serif 4" !important;
+    font-weight: normal !important;
 }
 
+.navbar-brand {
+    color: #ff6d70 !important;
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    gap: 10px;
+}
+nav a {
+    font-size: 20px;
+}
+
+.section-1 {
+    display: flex;
+    margin-top: 5rem;
+    font-family: "Source Serif 4";
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .section-1 {
+        flex-direction: column;
+    }
+}
 
 #progress {
+    margin-top: 3rem;
     text-align: center;
 }
 
-p{
+p {
     color: black;
-    margin-left: 50px;
-    margin-top: 30px;
 }
 
-h4 {
+.steps-heading {
     color: red;
     text-align: center;
+    font-size: 2.5rem;
+}
+
+.step {
+    color: #ff6d70;
+    font-size: 1.5rem;
 }
 
 img {
-    display: inline;
-    margin-left: 50px;
-    align-items: center;
+    width: 100%;
 }
 
 #nosidewalk {
@@ -127,22 +161,55 @@ ul {
 }
 
 img.img-rounded {
-    border-radius: 30px;
+    border-radius: 18px;
 }
 
-.text{
+.footer-image {
+    margin: 5rem 10rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-image {
+        margin: 5rem 0;
+    }
+}
+
+.text {
     width: 80%;
     margin: 0 auto;
-    font-family: Montserrat;
+    /* font-family: Montserrat; */
     font-size: 26px;
 }
 
 .list-group {
     max-width: 50%;
-    margin: 4rem auto;
+    margin: 1rem auto;
 }
 
-.list-group h6{
+@media screen and (max-width: 768px) {
+    .list-group {
+        max-width: 100%;
+    }
+}
+
+.list-group h6 {
     text-align: center;
     font-family: Playfair Display;
+}
+
+.actions-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 6rem;
+}
+
+.actions-heading {
+    color: #ff6d70;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+}
+
+.actions-sub-heading {
+    margin-top: 2rem;
 }
