@@ -213,3 +213,10 @@ img.img-rounded {
 .actions-sub-heading {
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .signs-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
