@@ -200,11 +200,12 @@ img.img-rounded {
 .actions-container {
     max-width: 80%;
     margin: 0 auto;
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 
 .actions-heading {
     color: #ff6d70;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 3.5rem;
 }
